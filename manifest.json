@@ -6,21 +6,21 @@
   "version": "1.0.8",
 
   "permissions": [
-    "tabs", "https://github.com/*"
+    "tabs", "https://git.corp.yahoo.com/*"
   ],
   "browser_action": {
     "default_icon": "icon.png"
   },
   "content_scripts": [
     {
-      "matches": ["https://github.com/*"],
+      "matches": ["https://git.corp.yahoo.com/*"],
       "js": ["wide-github.user.js"]
     }
   ],
   "licenses": [
     {
       "type": "MIT License",
-      "url": "http://opensource.org/licenses/mit-license.php",
+      "url": "http://opensource.org/licenses/mit-license.php"
     }
   ]
 }
